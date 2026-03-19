@@ -1,0 +1,35 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* ===== MEDIA QUERY HP ===== */
+@media (max-width: 768px) {
+}
+
+.footer {
+  background: #001529;
+  color: #fff;
+  width: 100%;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+.row-done {
+  background-color: #f6ffed !important; /* hijau muda antd */
+}
