@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-const supabase = require("./supabase");
+const supabase = require("../supabase");
 
 // untuk upload gambar
 const multer = require("multer");
